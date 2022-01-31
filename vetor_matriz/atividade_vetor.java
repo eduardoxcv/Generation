@@ -10,11 +10,11 @@ public class atividade_vetor {
 		int[] numeros = new int [7];
 		int parSoma = 0, imparQuantidade = 0;
 		
-		Scanner entrada = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in);
 		
 		for(int i = 1;i < 7; i++) {
 			System.out.println("\n Digite o valor "+i+ "°" );
-			numeros[i] = entrada.nextInt();
+			numeros[i] = leia.nextInt();
 			
 			if(numeros[i] % 2 == 0) { 
 				parSoma += numeros[i];
