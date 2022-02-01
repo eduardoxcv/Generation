@@ -15,10 +15,6 @@ public class teste_proj {
 		// TODO Auto-generated method stub
 		int SimpleDateFormat;
 		
-		SimpleDateFormat isoFormat = new SimpleDateFormat("HH:mm:ss");
-		isoFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
-		System.out.println(TimeZone);
-	        
 	        
 	}
 
